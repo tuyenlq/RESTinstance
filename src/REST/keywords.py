@@ -1067,7 +1067,7 @@ class Keywords:
         file_path=None,
         append=False,
         sort_keys=False,
-        also_console=True,
+        also_console=False,
     ):
         """*Outputs JSON Schema to terminal or a file.*
 
@@ -1157,7 +1157,7 @@ class Keywords:
         file_path=None,
         append=False,
         sort_keys=False,
-        also_console=True,
+        also_console=False,
     ):
         """*Outputs JSON to terminal or a file.*
 
